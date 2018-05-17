@@ -5,7 +5,7 @@
 ## Construcción Imagen Oracle Linux SQLPLUS
 docker build -t {imagen_sqlplus} .
 
-## Ejecutar contenedor oracle12cSQLPlus a partir de la imagen {imagen_sqlplus}
+## Ejecutar contenedor {contenedor_sqlplus} a partir de la imagen {imagen_sqlplus}
 
-docker run -it --name oracle12cSQLPlus -p 1521:1521 {imagen_sqlplus}
+docker run -it --name {contenedor_sqlplus} -p 1521:1521 {imagen_sqlplus}
 
