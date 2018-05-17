@@ -1,4 +1,4 @@
-FROM oraclelinux:7.4
+FROM oraclelinux:7.5
 
 RUN yum -y update
 RUN yum -y install libaio
